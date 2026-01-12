@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C & D Automotive - Your Trusted Local Business Partner</title>
+    <script src="https://cdn.tailwindcss.com/3.4.1"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Sticky Header -->
+    <header class="sticky top-0 bg-white shadow-md z-50">
+        <div class="max-w-6xl mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <h1 class="text-xl md:text-2xl font-bold text-blue-900">C & D Automotive</h1>
+                <nav class="hidden md:flex space-x-6">
+                    <a href="#services" class="text-gray-700 hover:text-blue-900 transition-colors">Services</a>
+                    <a href="#about" class="text-gray-700 hover:text-blue-900 transition-colors">About</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-900 transition-colors">Contact</a>
+                </nav>
+                <button class="md:hidden text-gray-700" onclick="toggleMenu()">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <nav id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+                <a href="#services" class="block py-2 text-gray-700 hover:text-blue-900 transition-colors">Services</a>
+                <a href="#about" class="block py-2 text-gray-700 hover:text-blue-900 transition-colors">About</a>
+                <a href="#contact" class="block py-2 text-gray-700 hover:text-blue-900 transition-colors">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-blue-900 to-blue-700 text-white py-16 md:py-24">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <div class="mb-8">
+                <div class="w-24 h-24 md:w-32 md:h-32 bg-white bg-opacity-20 rounded-full mx-auto flex items-center justify-center mb-6">
+                    <span class="text-4xl md:text-6xl">🔧</span>
+                </div>
+            </div>
+            <h2 class="text-3xl md:text-5xl font-bold mb-6">Your Trusted Local Business Partner</h2>
+            <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90">Serving the Carol Stream community with reliable, personalized automotive services you can count on.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#contact" class="bg-white text-blue-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">Get in Touch</a>
+                <a href="#services" class="border-2 border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-900 transition-colors">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 md:py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Professional Services</h3>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">We provide comprehensive automotive solutions tailored to meet the needs of our local community.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-lg text-center hover:shadow-lg transition-shadow">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full mx-auto flex items-center justify-center mb-6">
+                        <span class="text-2xl">🚗</span>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-4 text-gray-900">Maintenance Services</h4>
+                    <p class="text-gray-600">Comprehensive maintenance solutions to keep your vehicle running smoothly and safely.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-lg text-center hover:shadow-lg transition-shadow">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full mx-auto flex items-center justify-center mb-6">
+                        <span class="text-2xl">⚙️</span>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-4 text-gray-900">Repair Services</h4>
+                    <p class="text-gray-600">Expert repair work using quality parts and proven techniques for lasting results.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-lg text-center hover:shadow-lg transition-shadow">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full mx-auto flex items-center justify-center mb-6">
+                        <span class="text-2xl">🔍</span>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-4 text-gray-900">Diagnostics</h4>
+                    <p class="text-gray-600">Advanced diagnostic services to identify issues and recommend the best solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 md:py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About C & D Automotive</h3>
+                    <p class="text-lg text-gray-600 mb-6">We are a community-focused automotive business dedicated to providing convenient, personalized service to our neighbors in Carol Stream and the surrounding areas.</p>
+                    <p class="text-lg text-gray-600 mb-8">Our commitment to quality service and building lasting relationships with our customers sets us apart. We understand the importance of reliable transportation in your daily life.</p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <div class="flex items-center">
+                            <div class="w-3 h-3 bg-blue-600 rounded-full mr-3"></div>
+                            <span class="text-gray-700">Local Community Focus</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-3 h-3 bg-blue-600 rounded-full mr-3"></div>
+                            <span class="text-gray-700">Personalized Service</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-blue-600 to-blue-400 rounded-lg p-8 md:p-12 text-white">
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-white bg-opacity-20 rounded-full mx-auto flex items-center justify-center mb-6">
+                            <span class="text-3xl">📍</span>
+                        </div>
+                        <h4 class="text-xl font-semibold mb-4">Visit Our Location</h4>
+                        <p class="mb-2">496 E St Charles Rd Unit A</p>
+                        <p class="mb-4">Carol Stream, IL 60188</p>
+                        <p class="text-sm opacity-90">Conveniently located to serve the local community</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Contact Us</h3>
+                <p class="text-lg text-gray-600">Ready to experience personalized automotive service? Get in touch with us today.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h4 class="text-xl font-semibold mb-6 text-gray-900">Get In Touch</h4>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                                <span class="text-blue-600">📞</span>
+                            </div>
+                            <div>
+                                <p class="font-medium text-gray-900">Phone</p>
+                                <p class="text-gray-600">(555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                                <span class="text-blue-600">✉️</span>
+                            </div>
+                            <div>
+                                <p class="font-medium text-gray-900">Email</p>
+                                <p class="text-gray-600">info@cdautomotive.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                                <span class="text-blue-600">📍</span>
+                            </div>
+                            <div>
+                                <p class="font-medium text-gray-900">Address</p>
+                                <p class="text-gray-600">496 E St Charles Rd Unit A<br>Carol Stream, IL 60188</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <form class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Name</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Phone</label>
+                            <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center">
+                <h4 class="text-2xl font-bold mb-4">C & D Automotive</h4>
+                <p class="text-gray-400 mb-6">Your trusted local business partner in Carol Stream, IL</p>
+                <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row justify-between items-center">
+                    <p class="text-gray-400">© 2026 C & D Automotive</p>
+                    <p class="text-gray-500 text-sm mt-2 sm:mt-0">Preview site by Nick Sheetz</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+                document.getElementById('mobile-menu').classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
